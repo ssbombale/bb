@@ -1,0 +1,73 @@
+localhost:9000/User/registration
+{
+    "name": "ShhB",
+    "userName": "abcu9nie",
+    "password":"ab1@49Oy",
+    "address": "Pune",
+    "state": "Maharashtra",
+    "country": "India",
+    "email":"a78@gmail.com",
+    "pan":"eijp7591f",
+    "contactNumber":"9896543210",
+    "date":"2022-09-02",
+    "accountType":"Saving"
+    }
+???????????
+localhost:9000/login
+{"username":"demo@gmail.com",
+"password":"ab1@49Oy"}
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+localhost:8000/Admin/registration
+{
+    "userName":"admin",
+    "firstName":"ad",
+    "lastName":"min",
+    "password":"abc@234",
+    "gender":"FEMALE",
+    "contactNumber":"1234567890",
+    "email":"admin@gmail.com"
+}
+
+{  "userName":"admin",
+    "name":"such",
+    "firstName":"ad",
+    "lastName":"min",
+    "password":"abc@234",
+    "gender":"FEMALE",
+    "contactNumber":"1234567890",
+    "email":"admin@gmail.com"
+}
+
+
+localhost:8000/Admin/login
+{
+    "username":"admin",
+    "password":"abc@234"
+}
+-------------------------------------------------------------
+Update Customer:
+localhost:9000/User/18
+{
+    "id":18,
+    "country":"Australia",
+    "password":"aB1@555y",
+    "address":"Mumbai",
+    "accountType":"Saving", 
+    "contactNumber":"1234500000",
+    "email":"such@gmail.com",
+    "pan":"rijhg8761f",
+    "state":"MH", 
+    "userName":"Akshatarane"
+}
+--------------------------------------------------
+localhost:9000/User/applyLoan
+{
+    "loanId":"2",
+    "loanType":"carloan",
+    "loanAmount":"30000",
+    "applyDate":"2022-10-25",
+    "durationOFLoan":"2",
+    "rateOfInterest":"7",
+    "custId":"11"
+}
