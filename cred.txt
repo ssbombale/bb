@@ -63,11 +63,9 @@ localhost:9000/User/18
 --------------------------------------------------
 localhost:9000/User/applyLoan
 {
-    "loanId":"2",
     "loanType":"carloan",
     "loanAmount":"30000",
     "applyDate":"2022-10-25",
     "durationOFLoan":"2",
     "rateOfInterest":"7",
-    "custId":"11"
-}
+    "custId":"1"}
